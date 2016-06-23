@@ -9,9 +9,10 @@ Working on CentOS7
 
 1. Download phpldapadmin on www apache folder: 
 
-1.1. `wget https://github.com/manuparra/phpLDAPadmin/archive/master.zip`
-
-1.2. (for instance: `/var/www/shtml/phpldapadmin/` or `/var/www/html/phpldapadmin/`)
+```
+wget https://github.com/manuparra/phpLDAPadmin/archive/master.zip
+(for instance: /var/www/shtml/phpldapadmin/ or /var/www/html/phpldapadmin/)
+````
 
 2. Open browser: `https://myhost/phpldapadmin/`
 3. Rename `config/config.php.example` to `config/config.php`
