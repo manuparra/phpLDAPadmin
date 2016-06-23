@@ -7,7 +7,7 @@ Working on CentOS7
 
 ## Installation
 
-1. Download phpldapadmin on www apache folder: 
+1. Download phpldapadmin on your www  apache folder (in your server): 
 
 ```
 wget https://github.com/manuparra/phpLDAPadmin/archive/master.zip
