@@ -1,12 +1,15 @@
-phpLDAPadmin
-============
+phpLDAPadmin working on CentOS7
+===============================
 
-phpLDAPadmin - Web based LDAP administration tool
+Application phpLDAPadmin - Web based LDAP administration tool.
+Working on CentOS7
 
 
 ## Installation
 
-[INSTALL](INSTALL.md)
+- Download phpldapadmin: wget 
+- 
+
 
 ## License
 
