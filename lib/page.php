@@ -376,14 +376,19 @@ class page {
 			'FOOT'=>true
 		);
 		
-		if ($_SESSION[APPCONFIG]->getValue('appearance','minimalMode')) {
-			$display = array(
-				'HEAD'=>false,
-				'CONTROL'=>false,
-				'TREE'=>true,
-				'FOOT'=>false
-			);
-		}
+		// Check if session var APPCONFIG is set.
+		// It solves the following error when start phpldapadmin:
+		// Notice: Undefined variable: _SESSION in /path/to/pla/lib/page.php on line 381 Fatal error: 
+		// Call to a member function getValue() on a non-object in /path/to/pla/lib/page.php on line 381
+		if (isset($_SESSION[APPCONFIG]))
+			if ($_SESSION[APPCONFIG]->getValue('appearance','minimalMode')) {
+				$display = array(
+					'HEAD'=>false,
+					'CONTROL'=>false,
+					'TREE'=>true,
+					'FOOT'=>false
+				);
+			}
 
 		$display = array_merge($display,$filter);
 
