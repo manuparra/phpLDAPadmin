@@ -7,15 +7,15 @@ Working on CentOS7
 
 ## Installation
 
-1. Download phpldapadmin on your www  apache folder (in your server): 
+- Download phpldapadmin on your www  apache folder (in your server): 
 ```
 wget https://github.com/manuparra/phpLDAPadmin/archive/master.zip
 (for instance: /var/www/shtml/phpldapadmin/ or /var/www/html/phpldapadmin/)
 ````
-2. Unzip `master.zip` on the folder created
-3. Open browser: `https://myhost/phpldapadmin/`
-4. Rename `config/config.php.example` to `config/config.php`
-5. Reload you browser `https://myhost/phpldapadmin/`
+- Unzip `master.zip` on the folder created
+- Open browser: `https://myhost/phpldapadmin/`
+- Rename `config/config.php.example` to `config/config.php`
+- Reload you browser `https://myhost/phpldapadmin/`
 
 ## Error solved
 
