@@ -29,3 +29,9 @@ Call to a member function getValue() on a non-object in /path/to/pla/lib/page.ph
 ## License
 
 [LICENSE](LICENSE)
+
+## Modified and validated by:
+
+- Manuel Parra-Royón  manuelparra@decsai.ugr.es
+- German Valdearenas-Jiménez gernanv@correo.ugr.es 
+
